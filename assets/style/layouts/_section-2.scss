@@ -1,0 +1,71 @@
+.section-2 {
+    width: 80%;
+    margin: 20px auto;
+    h2 {
+        font-family: $font1;
+        font-size: 2rem;
+        font-weight: 400;
+        color: $color1;
+    }
+    img {
+        font-size: 1.5rem;
+        margin: 10px auto;
+    }
+    ul {
+        @include alignChilderen(space-around);
+        li {
+          border-bottom: 1px solid grey;  
+          padding-bottom: 5px;
+        }
+    }
+    .menu {
+        border-top: 2px solid $color1 ;
+        margin-top: 20px;
+        h4 {
+            text-transform: uppercase;
+           font-size: 0.8rem;
+            font-weight: 900;
+            color: $black;
+        }
+        h5 {
+            font-family: $font2;
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+        h6 {
+            font-size: 0.6rem;
+            color: $color1;
+        }
+        
+        .menu-list {
+           display: grid;
+           grid-template-columns: 50% 50%;
+           align-items: center;
+            background: $white;
+            color:$black;
+            .ml-left {
+                display: grid;
+                grid-template-columns: 30% 62% 8%;
+                text-align: center;
+                padding: 20px 10px;
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50px;
+                }
+            }
+            .ml-right {
+                display: grid;
+                grid-template-columns: 30% 62% 8%;
+                text-align: center;
+                padding: 20px 10px;
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50px;
+                }
+            }
+            
+        }
+    }
+}
