@@ -189,7 +189,20 @@ header .header-text h6 {
 
 .section-2 {
   width: 80%;
-  margin: 20px auto;
+  margin: 0 auto 100px;
+  position: relative;
+}
+.section-2:after {
+  content: "";
+  position: absolute;
+  height: 450px;
+  width: 100%;
+  background: url(../img/bg-menu-01.jpg) center/cover;
+  left: 50%;
+  bottom: -330px;
+  z-index: -1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .section-2 h2 {
   font-family: "Allura", cursive;
@@ -216,8 +229,9 @@ header .header-text h6 {
   padding-bottom: 5px;
 }
 .section-2 .menu {
+  width: 70%;
   border-top: 2px solid rgb(166, 114, 69);
-  margin-top: 20px;
+  margin: 20px auto;
 }
 .section-2 .menu h4 {
   text-transform: uppercase;
@@ -264,4 +278,12 @@ header .header-text h6 {
   width: 60px;
   height: 60px;
   border-radius: 50px;
+}
+
+.section-3 {
+  width: 80%;
+  margin: 20px auto;
+  padding: 100px 15px 65px;
+  display: grid;
+  grid-template-columns: 30% 70%;
 }/*# sourceMappingURL=index.css.map */
