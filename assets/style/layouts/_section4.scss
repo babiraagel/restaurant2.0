@@ -1,0 +1,26 @@
+.section4 {
+    h2 {
+        font-family: $font1;
+        font-size: 2rem;
+        font-weight: 200;
+        color: $color1;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-family: $font2;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    img {
+        height: 25px;
+        margin: 25px;
+    }
+    .main-party {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        .mp-left-up {
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
+    }
+}

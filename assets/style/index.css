@@ -281,9 +281,134 @@ header .header-text h6 {
 }
 
 .section-3 {
-  width: 80%;
-  margin: 20px auto;
+  max-width: 1050px;
+  margin: 0 auto;
   padding: 100px 15px 65px;
   display: grid;
   grid-template-columns: 30% 70%;
+}
+.section-3 .section3-left {
+  background: black;
+}
+.section-3 .section3-left .s3-left-container {
+  margin: 10px;
+  padding: 15px;
+  border: 1px dashed rgb(204, 188, 188);
+}
+.section-3 .section3-left .s3-left-container h2 {
+  font-family: "Allura", cursive;
+  color: rgb(166, 114, 69);
+  font-size: 2rem;
+  font-weight: 500;
+}
+.section-3 .section3-left .s3-left-container h3 {
+  font-family: "Popins", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.section-3 .section3-left .s3-left-container img {
+  font-size: 1.5rem;
+  margin: 15px auto;
+}
+.section-3 .section3-left .s3-left-container h4 {
+  font-family: "Popins", sans-serif;
+  text-transform: uppercase;
+  color: rgb(166, 114, 69);
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.section-3 .section3-left .s3-left-container h5 {
+  font-family: "Popins", sans-serif;
+  font-weight: 500;
+  font-size: 0.4rem;
+}
+.section-3 .section3-left .s3-left-container .text1 {
+  margin: 15px auto;
+}
+.section-3 .section3-right {
+  background: rgb(233, 224, 224);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-3 .section3-right .s3-right-container {
+  color: rgb(29, 28, 28);
+  padding: 20px;
+}
+.section-3 .section3-right .s3-right-container h2 {
+  font-family: "Allura", cursive;
+  color: rgb(166, 114, 69);
+  font-size: 2rem;
+  font-weight: 300;
+}
+.section-3 .section3-right .s3-right-container h3 {
+  text-transform: uppercase;
+  font-family: "Popins", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.section-3 .section3-right .s3-right-container img {
+  height: 25px;
+  margin: 25px;
+}
+.section-3 .section3-right .s3-right-container .form-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+.section-3 .section3-right .s3-right-container .form-inputs > * {
+  padding: 10px 0;
+  margin: 10px;
+  outline: none;
+  background: none;
+  border: none;
+}
+.section-3 .section3-right .s3-right-container button {
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  background: rgb(29, 28, 28);
+  font-size: 0.8rem;
+  color: rgb(233, 224, 224);
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.section-3 .section3-right .s3-right-container button:hover {
+  background: rgb(233, 224, 224);
+  color: rgb(29, 28, 28);
+  border: none;
+}
+
+.section4 h2 {
+  font-family: "Allura", cursive;
+  font-size: 2rem;
+  font-weight: 200;
+  color: rgb(166, 114, 69);
+}
+.section4 h3 {
+  text-transform: uppercase;
+  font-family: "Popins", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.section4 img {
+  height: 25px;
+  margin: 25px;
+}
+.section4 .main-party {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.section4 .main-party .mp-left-up {
+  display: grid;
+  grid-template-columns: 40% 60%;
 }/*# sourceMappingURL=index.css.map */
